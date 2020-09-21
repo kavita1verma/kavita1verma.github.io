@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #e5e5e5;
+}
+.left_filter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+    
+}
+.space_heading h2 {
+    font-weight: bold;
+}
+.left_filter h5 {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+.launch_year {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    margin: 20px 60px;
+    font-size: 16px;
+}
+.years {
+    background-color: lightgreen;
+    color: #000;
+    padding: 3px 15px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration:none;
+    cursor: pointer;
+}
+.years:hover {
+    background-color: green; 
+    text-decoration:none;
+}
+.programWrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.title_id {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.mission_id b, .laucnh_year b {
+    color: #000;
+}
+.mission_id, .laucnh_year {
+    color: #337ab7;
+    list-style-type: disc;
+    list-style: circle;
+}
+.developer_name {
+    margin: 50px 0px;
+    text-align: center;
+}
+.programWrapper img {
+    width: 180px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #f3f3f3;
+}
+.pagination {
+    display: inherit !important;
+    float: none !important;
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+  
+
+}
+
+/* mobile (landscape) ----------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  
+}
+
+/* mobile (portrait) ----------- */
+@media only screen and (max-width: 479px) {
+   
+}
+    
